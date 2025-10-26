@@ -19,3 +19,8 @@ export default defineConfig({
     }
   }
 })
+export default defineConfig({
+  plugins: [react()],
+  base: '/cacel-website/',
+  // ... 既存の設定
+})
